@@ -14,8 +14,8 @@
 }
 
 h1 {
-    font-size: 4.5em;
-    font-family:'Raleway', 'Helvetica', 'Arial', sans-serif;
+	font-size: 4.5em;
+    	font-family:'Raleway', 'Helvetica', 'Arial', sans-serif;
 	text-align: center;
 }
 
@@ -26,24 +26,24 @@ nav{
 
 nav ul{
 	font-family:'Helvetica', 'Arial', sans-serif;
-    padding: 0px;
-    list-style: none;
+    	padding: 0px;
+    	list-style: none;
 	font-weight: bold;
 }    
 
 nav ul div{
-    display: inline-block;
+    	display: inline-block;
 	margin-left: 8em;
-    margin-right: 8em;
+    	margin-right: 8em;
 	width:14em;
 	height: 5em;
 	border: 0.1em solid #33ffad;
 }
 
 nav ul div:hover{
-    display: inline-block;
+    	display: inline-block;
 	margin-left: 8em;
-    margin-right: 8em;
+    	margin-right: 8em;
 	width:14em;
 	height: 5em;
 	background-color: #33ffad;
