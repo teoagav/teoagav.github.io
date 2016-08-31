@@ -28,8 +28,8 @@ nav ul{
 
 nav ul div{
     display: inline-block;
-	margin-left: 7.5%;
-    margin-right: 7.5%;
+	margin-left: 8em;
+    margin-right: 8em;
 	width:14em;
 	height: 5em;
 	border: 0.1em solid #33ffad;
@@ -37,8 +37,8 @@ nav ul div{
 
 nav ul div:hover{
     display: inline-block;
-	margin-left: 7.5%;
-    margin-right: 7.5%;
+	margin-left: 8em;
+    margin-right: 8em;
 	width:14em;
 	height: 5em;
 	background-color: #33ffad;
