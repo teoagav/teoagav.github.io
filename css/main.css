@@ -54,3 +54,23 @@ a{
 	text-decoration: none;
 	color: #000000;
 }
+
+@media screen and (max-width: 1080px) {
+	  nav ul div{
+		display: inline-block;
+		margin-left: 1em;
+		margin-right: 1em;
+		width:14em;
+		height: 5em;
+		border: 0.1em solid #33ffad;
+	}
+
+	nav ul div:hover{
+		display: inline-block;
+		margin-left: 1em;
+		margin-right: 1em;
+		width:14em;
+		height: 5em;
+		background-color: #33ffad;
+	}
+}
