@@ -10,9 +10,10 @@
 }
 
 h1 {
-    font-size: 4.5em;
-    font-family:'Raleway', 'Helvetica', 'Arial', sans-serif;
+	font-size: 4.5em;
+    	font-family:'Raleway', 'Helvetica', 'Arial', sans-serif;
 	text-align: center;
+	opacity: 0;
 }
 
 nav{
@@ -21,21 +22,21 @@ nav{
 }
 
 nav ul{
-    padding: 0px;
-    list-style: none;
+    	padding: 0px;
+    	list-style: none;
 }    
 
 nav ul div{
-    display: inline-block;
+    	display: inline-block;
 	margin-left: 4em;
-    margin-right: 4em;
+    	margin-right: 4em;
 	width:14em;
 	height: 5em;
 	border: 0.1em solid #33ffad;
 	cursor: pointer;
 }
 
-nav ul div:hover{
+nav ul div:hover, .filled{
 	background-color: #33ffad;
 	
 }
@@ -52,7 +53,38 @@ a{
 	color: #000000;
 }
 
+.hidden{
+	display: none;
+}
+
+p {
+	text-align:center;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top: 2em;
+	font-size: 1.5em;
+	font-family: 'Open Sans', sans-serif;
+}
+
 img{
+	margin: auto;
+	margin-top: 1em;
+	display: block;
+}
+
+#gladiators, #first-person{
+	width: 20em;
+}
+
+#rpg{
+	width: 20em;
+}
+
+#quadratic{
+	width: 20em;
+}
+
+#github{
 	length: 2em;
 	width: 2em;
 	opacity: 0.4;
@@ -61,17 +93,8 @@ img{
 	display:block;
 }
 
-img:hover{
+#github:hover{
 	opacity: 0.8;
-}
-
-p{
-	text-align:center;
-	margin-left:10%;
-	margin-right:10%;
-	margin-top: 2em;
-	font-size: 1.5em;
-	font-family: 'Open Sans', sans-serif;
 }
 
 @media screen and (max-width: 1080px) {
@@ -85,8 +108,7 @@ p{
 		cursor: pointer;
 	}
 
-	nav ul div:hover{
+	nav ul div:hover, .filled{
 		background-color: #33ffad;
-		
 	}
 }
