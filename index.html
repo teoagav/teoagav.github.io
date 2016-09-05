@@ -4,6 +4,8 @@
 		<title>Teodor Agavriloai</title>
 		<link rel="stylesheet" type="text/css" href="css/main.css"/>
 		<link href="https://fonts.googleapis.com/css?family=Lobster|Raleway:100|Open+Sans" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="script.js"></script>
 	</head>
 	<body>
 		<div id = "header">
@@ -12,18 +14,35 @@
 		</div>
 		<nav>
 			<ul>
-				<div class="selected"><li><a href="/">About</a></li></div>
-				<div class="unselected"><li><a href="/about">Projects</a></li></div>
+				<div id = "about" class="filled"><li>About</li></div>
+				<div id = "projects"><li>Projects</li></div>
 				<a href="/Resume.pdf"><div><li>Resume</li></div></a>
 			</ul>
 		</nav>
 		<div>
-    		<div>
-				<p>Talk about myself here!</p>
-    		</div>
+	    		<div>
+				<p id="aboutPar">
+					Hey there! I'm an 18 year-old student currently in my first year for a Bacherlor of Computer Science at the University of Waterloo 
+					and a Bachelor in Business Administration at Wilfred Laurier University. Apart from coding and business I enjoy recreational sports and
+					learning more on the topics of science, politics and philosophy.
+				</p>
+				<p id="projectsPar" class=hidden>
+					Gladiators: A two-person fighting game done in Python (Pygame)<br/>
+					<img id = "gladiators" src="images/gladiators.png"><br/>
+					A simple first person game done in Python (Pygame)<br/>
+					<img id = "first-person" src="images/first-person.png"><br/>
+					A role-playing game done in Java<br/>
+					<img id="rpg" src="images/rpg.png"><br/>
+					A quadratic equation calculator done in Java with the ability to expand and simplify input<br/>
+					<img id = "quadratic" src="images/quadratic.png">
+				</p>
+	    		</div>
 		</div>
 		<footer>
-			<a href="https://github.com/teoagav"><img src="images/github-icon.png"/></a>
+			<a href="https://github.com/teoagav"><img id = "github" src="images/github-icon.png"/></a>
 		</footer>
+	
+		<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+		<script src="js/script.js"></script>
 	</body>
 </html>
